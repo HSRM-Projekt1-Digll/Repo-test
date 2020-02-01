@@ -1,0 +1,192 @@
+/* Allgemeine Styles*/
+body {
+  background-color: white;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.mobilerabstand {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 70vh;
+}
+
+.gruppenbild {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+div.col {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  text-align: justify;
+}
+
+.unsertext {
+  text-align: center;
+  padding: 0px 40px 0px;
+  color:black;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+#kontakt{
+  letter-spacing: 2px;
+  padding-bottom: 5vh;
+}
+#kontakt a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.Hintergrundbild-Kontakt {
+  background: url(../FotosBar/unscharf2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.Infobox {
+  display: none;
+}
+
+.ausrichtung {
+  text-align: center;
+}
+
+.sans-serif {
+  font-family: 'Poppins', sans-serif;
+}
+
+.Unterueberschrift {
+  color: black;
+  padding-top: 3vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Nav Bar Anpassungen*/
+li.nav-item {
+  text-align: center;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(255,215,0,0.75);
+}
+
+/*Hover Zoom*/
+img.zoom {
+ transition: transform 0.8s;
+ -moz-transition: transform 0.8s;
+ -webkit-transition: transform 0.8s;
+ -o-transition: transform 0.8s;
+ -ms-transition: transform 0.8s;
+}
+img.zoom:hover {
+ cursor: zoom-in;
+ cursor: -moz-zoom-in;
+ cursor: -webkit-zoom-in;
+ transform: scale(1.1, 1.1);
+ -moz-transform: scale(1.1, 1.1);
+ -webkit-transform: scale(1.1, 1.1);
+ -o-transform: scale(1.1, 1.1);
+ -ms-transform: scale(1.1, 1.1);
+}
+
+/* Hover Desktop Cooperation START*/
+.overlayFade {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.photo {
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    width:100%;
+}
+.overlay {
+    position: absolute;
+    transition: all .9s ease;
+    opacity: 0;
+    background: rgb(0, 0, 0, 0.7);
+}
+.photo:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    text-align: center;
+}
+/* Hover Desktop Cooperation ENDE*/
+
+/*Recipes Start*/
+.rezeptbilder {
+  width: 100%;
+}
+
+.rezeptueberschrift {
+  text-align: center;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Recipes {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  text-align: center;
+  color: black;
+}
+
+div.col-4 {
+  padding: 0.9vw;
+}
+
+.download {
+  width: 10%;
+  padding-bottom: 3vw;
+}
+
+.download2 {
+  width: 10%;
+  padding-bottom: 3vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Footer*/
+
+.socialmediaicons {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+/*Footer Ende*/
