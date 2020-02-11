@@ -55,10 +55,6 @@ h1 {
   padding-bottom: 3vw;
 }
 
-/*Footer*/
-
-.socialmediaicons {
-  padding-left: 60px;
-  padding-right: 60px;
+.card {
+    height: 100%;
 }
-/*Footer Ende*/
