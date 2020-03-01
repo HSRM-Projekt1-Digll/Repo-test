@@ -1,0 +1,60 @@
+/* Allgemeine Styles*/
+body {
+  background-color: white;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 70vh;
+}
+
+.bild {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+div.col {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  text-align: left;
+}
+
+.unsertext {
+  text-align: center;
+  padding: 0px 40px 0px;
+  color:black;
+}
+
+.kostenlinks {
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ausrichtung {
+  text-align: center;
+}
+
+.download {
+  width: 60px;
+  padding-bottom: 3vw;
+}
+
+.card {
+    height: 100%;
+}
